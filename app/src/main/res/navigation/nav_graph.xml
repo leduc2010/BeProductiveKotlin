@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.SplashFragment"
+        android:label="Splash">
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_onBoardingFragment"
+            app:destination="@id/onboardingFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.OnboardingFragment"
+        android:label="OnBoarding">
+        <action
+            android:id="@+id/action_onBoardingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_homeFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_noteDetailFragment"
+            app:destination="@id/noteDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_focusFragment"
+            app:destination="@id/focusFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.AddNoteFragment"
+        android:label="AddNote" />
+
+    <fragment
+        android:id="@+id/noteDetailFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.NoteDetailFragment"
+        android:label="NoteDetail">
+        <argument
+            android:name="note"
+            app:argType="com.duc.beproductivekotlin.db.entities.Note" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/focusFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.FocusFragment"
+        android:label="Focus">
+        <action
+            android:id="@+id/action_focusFragment_to_onFocusFragment"
+            app:destination="@id/onFocusFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onFocusFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.OnFocusFragment"
+        android:label="OnFocus">
+        <action
+            android:id="@+id/action_onFocusFragment_to_collectionFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/onFocusFragment"
+            app:destination="@id/collectionFragment" />
+        <argument
+            android:name="startTimer"
+            app:argType="boolean" />
+        <argument
+            android:name="focusText"
+            app:argType="string" />
+        <argument
+            android:name="pokemon"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exolorerFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.ExploreFragment"
+        android:label="Explore">
+        <action
+            android:id="@+id/action_exploreFragment_to_detailExploreFragment"
+            app:destination="@id/detailExploreFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailExploreFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.DetailExploreFragment"
+        android:label="DetailExplore">
+
+        <argument
+            android:name="exploreItem"
+            app:argType="com.duc.beproductivekotlin.db.entities.Explore" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.ProfileFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profileFragment_to_collectionFragment"
+            app:destination="@id/collectionFragment" />"
+    </fragment>
+
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.duc.beproductivekotlin.view.fragment.CollectionFragment"
+        android:label="Collection" />
+</navigation>

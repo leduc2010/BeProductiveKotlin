@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BeProductive</string>
+    <string name="txt_note">Note</string>
+    <string name="txt_focus">Focus</string>
+    <string name="txt_explorer">Explorer</string>
+    <string name="txt_setting">Setting</string>
+    <string name="txt_welcome">Welcome to\n<font color="#FFC120">Be</font><font color="#6000F7">Productive</font></string>
+    <string name="txt_be_focused">Be Focused</string>
+    <string name="txt_note_taking">Note-taking</string>
+    <string name="txt_explore">Explore</string>
+    <string name="none"></string>
+    <string name="txt_desc_onboarding2">Tools for mindfulness exercises, timers, and productivity trackers</string>
+    <string name="txt_desc_onboarding3">Editor for creating, editing, and organizing note</string>
+    <string name="txt_desc_onboarding4">Dive in and discover insights, tips, and strategies that will propel your efficiency and success</string>
+    <string name="txt_all_notes">All Notes</string>
+    <string name="txt_add_note">Add Note</string>
+    <string name="txt_delete_this_note">Delete this note?</string>
+    <string name="txt_edit_note">Edit Note</string>
+    <string name="txt_break">Break</string>
+    <string name="txt_giai_lao">Giải lao!</string>
+    <string name="txt_theme_name">Theme name</string>
+    <string name="txt_25_00">25:00</string>
+    <string name="txt_focus_25_00">Focus(25:00)</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_exit">Exit</string>
+    <string name="txt_title">Mastering....</string>
+    <string name="txt_new_article">New Article</string>
+    <string name="txt_popular">Popular</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_congrat">You\'ve successfully completed the focus session</string>
+    <string name="txt_your_gift">Your gift</string>
+    <string name="txt_pokemon_name">Pokemon name</string>
+    <string name="txt_collection">Collection</string>
+    <string name="txt_update_info">Update info</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_duc_s_collection">Duc\'s Collection</string>
+</resources>

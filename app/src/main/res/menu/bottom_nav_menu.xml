@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_note"
+        android:title="@string/txt_note" />
+    <item
+        android:id="@+id/focusFragment"
+        android:icon="@drawable/ic_focus"
+        android:title="@string/txt_focus" />
+    <item
+        android:id="@+id/exolorerFragment"
+        android:icon="@drawable/ic_lightbulb"
+        android:title="@string/txt_explorer" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/txt_profile" />
+</menu>

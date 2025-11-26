@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color">#000000</color>
+    <color name="icon_tint">#000000</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="purple">#D8D3FC</color>
+    <color name="button_text_color">#DF50FE</color>
+    <color name="gray">#919191</color>
+    <color name="purple_200">#6000F7</color>
+    <color name="note_yellow">#FDDD66</color>
+    <color name="note_blue">#8ADEFD</color>
+    <color name="note_green">#84F1B2</color>
+    <color name="note_purple">#C2A4FD</color>
+    <color name="note_orange">#FFBF69</color>
+    <color name="note_color1">#fbf8cc</color>
+    <color name="note_color2">#fde4cf</color>
+    <color name="note_color3">#ffcfd2</color>
+    <color name="note_color4">#f1c0e8</color>
+    <color name="note_color5">#cfbaf0</color>
+    <color name="note_color6">#a3c4f3</color>
+    <color name="note_color7">#90dbf4</color>
+    <color name="note_color8">#90dbf4</color>
+    <color name="note_color9">#8eecf5</color>
+    <color name="note_color10">#98f5e1</color>
+    <color name="note_color11">#b9fbc0</color>
+    <color name="note_color12">#fcd5ce</color>
+
+    <array name="note_colors">
+        <item>@color/note_color1</item>
+        <item>@color/note_color2</item>
+        <item>@color/note_color3</item>
+        <item>@color/note_color4</item>
+        <item>@color/note_color5</item>
+        <item>@color/note_color6</item>
+        <item>@color/note_color7</item>
+        <item>@color/note_color8</item>
+        <item>@color/note_color9</item>
+        <item>@color/note_color10</item>
+        <item>@color/note_color11</item>
+        <item>@color/note_color12</item>
+    </array>
+
+    <color name="positiveButtonTextColor">@color/colorAccent</color>
+    <color name="negativeButtonTextColor">@color/colorAccent</color>
+    <color name="bottomSheetDividerColor">#F5F5F5</color>
+    <color name="purple_search">#CEB8EF</color>
+    <color name="colorAccent">#424242</color>
+    <color name="light_gray">#E6E6E6</color>
+    <color name="transparent">#FFFFFF</color>
+    <color name="delete_text">#E53935</color>
+    <color name="dark_purple">#9b6bd2 </color>
+</resources>
