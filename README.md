@@ -9,7 +9,7 @@ Beproductive là ứng dụng quản lý thói quen và công việc giúp ngư�
 
 
 ### BeProductive App Screenshot
-![Image](https://github.com/user-attachments/assets/2c398204-fadf-4205-a6b9-3ff2a1cb6e9e)
+<img src="https://github.com/user-attachments/assets/27bd5b95-3fde-45aa-9ac1-41d67334678e" alt="Screenshot" width="400">
 
 ![Image](https://github.com/user-attachments/assets/7f252153-acae-4f43-8996-404ae4b38253)
 
